@@ -1,0 +1,62 @@
+#html, body{
+	margin: 0;
+	scroll-behavior: smooth;
+    background-image: url(11854.jpg);
+  background-size: cover;
+}
+
+#contenedor{
+    background-color: rgba(255, 255, 255, 0.292);
+    
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.6) ;
+    border-radius: 10px;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+#buscador{
+    text-align: center;
+    height: auto;
+    width: 700px;
+    background-color: #adadad;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin: 10px;
+    float: inline-start;
+    position: relative;
+}
+
+.row{
+    margin: auto;
+    width: auto;
+    padding: 10px;
+}
+
+select{
+    border-radius: 10%;
+    border-color: black;
+
+}
+#btnBuscar{
+    margin:10px;
+}
+#resultados{
+    text-align: center;
+    font-weight: bold;
+    height:auto;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    position:relative;
+    background-color: rgba(255, 255, 255, 0);
+    
+}
